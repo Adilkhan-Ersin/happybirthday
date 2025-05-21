@@ -31,7 +31,7 @@ export default function Home() {
       <main className="max-w-[500px] w-full overflow-hidden">
         <div className="flex w-[50px] h-[50px] rounded-full bg-[var(--foreground)] fixed bottom-[15px] right-[15px] items-center justify-center z-50">
           <button onClick={toggleAudioIndicator} className="flex items-center space-x-0.5">
-            <audio ref={audioElementRef} className="hidden" src="/audio/lust.mp3" loop />
+            <audio ref={audioElementRef} className="hidden" src="/audio/Lust.mp3" loop />
                 {[1, 2, 3, 4].map((bar) => (
                   <div key={bar} className={clsx("indicator-line", { active: isIndicatorActive, })} style={{ animationDelay: `${bar * 0.1}s`, }}/>
                 ))}
