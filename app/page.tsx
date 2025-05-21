@@ -26,6 +26,7 @@ export default function Home() {
   }, [isAudioPlaying]);
 
   return (
+    
     <div className="w-screen h-screen">
       <main className="max-w-[500px] w-full overflow-hidden">
         <div className="flex w-[50px] h-[50px] rounded-full bg-[var(--foreground)] fixed bottom-[15px] right-[15px] items-center justify-center z-50">
