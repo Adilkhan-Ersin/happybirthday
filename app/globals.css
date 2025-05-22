@@ -34,10 +34,9 @@ li {
   border-bottom: #171717;
   border-bottom-width: 1px;
   margin: 0.2rem 0;
-  padding: 0.5rem;
+  padding: 0.2rem;
   width: 100%;
   border-radius: 10px;
-  
 }
 
 li:hover {
