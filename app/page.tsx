@@ -6,7 +6,7 @@ import Character from"@/components/Character";
 import localFont from 'next/font/local';
 
 const lucyFont = localFont({
-  src: './fonts/lucy.ttf',
+  src: '../fonts/lucy.ttf',
   variable: '--font-lucy',
 })
 export default function Home() {
