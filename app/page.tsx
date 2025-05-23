@@ -3,12 +3,7 @@ import clsx from"clsx";
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import Character from"@/components/Character";
-import localFont from 'next/font/local';
 
-const lucyFont = localFont({
-  src: '../fonts/lucy.ttf',
-  variable: '--font-lucy',
-})
 export default function Home() {
   // State for toggling audio and visual indicator
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
@@ -54,8 +49,8 @@ export default function Home() {
    "Дней без паники.",
    "Минут без телефона — но с настоящей жизнью.",
    "Лета в душе, даже зимой.",
-    'Возможности сказать"нет"— без чувства вины.',
-    'Возможности сказать"да"— себе.' ,
+   'Возможности сказать"нет"— без чувства вины.',
+   'Возможности сказать"да"— себе.' ,
    "Уверенности в себе, даже когда мир — как барахолка.",
    "Голоса, который шепчет: “ты молодец”.",
    "Вдохновения — даже если ты не художник.",
@@ -63,7 +58,7 @@ export default function Home() {
    "Неизвестного будущего, но с приятным предчувствием.",
    "Падений, после которых хочется встать — и идти дальше.",
    "Безопасности.",
-    'Тех, кто не говорит"ты слишком","ты мало","будь другой".' ,
+   'Тех, кто не говорит"ты слишком","ты мало","будь другой".' ,
    "Одиночества — не грустного, а глубокого.",
    "Диалогов с собой — честных.",
    "Безумных идей, от которых душа оживает.",
@@ -176,7 +171,7 @@ export default function Home() {
                 <li className="font-semibold"><Character paragraph={'Пусть однажды ты прочитаешь этот список, улыбнёшься, и поймёшь: "Это всё уже сбылось."'}/></li>
               </ul>
           </div>
-          <h1 className={`text-[40px] mt-[20px] ${lucyFont.className} `}>Final message, and yes, it’s cheesy</h1>
+          <h1 className='text-[40px] mt-[20px] font-[lucyFont]'>Final message, and yes, it’s cheesy</h1>
           <p className="text-center">Ты — как любимая песня. 
             Может, я и не знаю всех слов, 
             но точно знаю, что хочу слушать тебя снова и снова.</p>

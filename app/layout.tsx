@@ -1,7 +1,15 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Dancing_Script, Roboto } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import localFont from "next/font/local";
 import "./globals.css";
+
+const lucyFont = localFont({
+  src: '../public/fonts/lucy.ttf',
+  variable: '--font-lucy',
+  display: 'swap',
+  style: 'normal',
+})
 
 const playfair = Playfair_Display({
   variable: "--font-playfair_display",
@@ -35,7 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${playfair.variable} ${dancing.variable} ${roboto.variable} antialiased`}>
+      <body className={`${playfair.variable} ${dancing.variable} ${roboto.variable} ${lucyFont.variable} antialiased`}>
         {children}
         <Analytics />
       </body>
