@@ -129,7 +129,7 @@ export default function Home() {
         </div>
         <section>
           <div className='flex relative'>
-            <Image className='' src="/lents.png" width={1080} height={1080} alt="lenta"/>
+            <Image className='' src="/lents.png" width={375} height={100} alt="lenta"/>
           </div>
         </section>
         <section className="flex w-screen flex-col items-center h-screen">
@@ -149,7 +149,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-[20px]">
-            <Image src="/flower.png" width={300} height={300} alt="Clipped Photo" />
+            <Image src="/wowww.png" width={300} height={300} alt="Clipped Photo" />
           </div>
         </section>
         <section className="flex flex-col items-center p-4">
@@ -171,7 +171,7 @@ export default function Home() {
                 <li className="font-semibold"><Character paragraph={'Пусть однажды ты прочитаешь этот список, улыбнёшься, и поймёшь: "Это всё уже сбылось."'}/></li>
               </ul>
           </div>
-          <h1 className='text-[40px] mt-[20px] font-[lucyFont]'>Final message, and yes, it’s cheesy</h1>
+          <h1 className='text-[36px] text-center mt-[20px] font-[lucyFont]'>Final message, and yes, it’s cheesy</h1>
           <p className="text-center">Ты — как любимая песня. 
             Может, я и не знаю всех слов, 
             но точно знаю, что хочу слушать тебя снова и снова.</p>
