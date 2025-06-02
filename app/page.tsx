@@ -6,8 +6,8 @@ import Character from"@/components/Character";
 
 export default function Home() {
   // State for toggling audio and visual indicator
-  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
-  const [isIndicatorActive, setIsIndicatorActive] = useState(false);
+  const [isAudioPlaying, setIsAudioPlaying] = useState(true);
+  const [isIndicatorActive, setIsIndicatorActive] = useState(true);
       
   const listText = [
    "Торт, который не кончится",
@@ -117,10 +117,10 @@ export default function Home() {
 
   return (
     
-    <div className="w-screen h-screen">
-      <main className="max-w-[500px] w-full overflow-hidden">
-        <div className="flex w-[50px] h-[50px] rounded-full bg-[var(--foreground)] fixed bottom-[15px] right-[15px] items-center justify-center z-50">
-          <button onClick={toggleAudioIndicator} className="flex items-center space-x-0.5">
+    <div className="w-screen flex flex-col items-center justify-center">
+      <main className="max-w-[500px] overflow-hidden">
+        <div onClick={toggleAudioIndicator} className="flex w-[50px] h-[50px] rounded-full bg-[var(--foreground)] fixed bottom-[15px] right-[15px] items-center justify-center z-50">
+          <button className="flex items-center space-x-0.5">
             <audio ref={audioElementRef} className="hidden" src="/audio/Lust.mp3" loop />
                 {[1, 2, 3, 4].map((bar) => (
                   <div key={bar} className={clsx("indicator-line", { active: isIndicatorActive, })} style={{ animationDelay: `${bar * 0.1}s`, }}/>
@@ -129,21 +129,21 @@ export default function Home() {
         </div>
         <section>
           <div className='flex relative'>
-            <Image className='' src="/lents.png" width={375} height={100} alt="lenta"/>
+            <Image className='w-full' src="/lents.png" width={375} height={100} alt="lenta"/>
           </div>
         </section>
-        <section className="flex w-screen flex-col items-center h-screen">
+        <section className="flex w-full flex-col items-center">
           <div className='flex flex-col items-center justify-center'>
             <h6 className='font-medium text-2xl'>25.05.25</h6>
             <h1 className='text-5xl font-[lucyFont] text-center'>Happy Birthday, Kamilya!</h1>
             <h5 className='mt-2.5 text-4xl font-[lucyFont]'>It&apos;s your special day</h5>
           </div>
-          <div className='w-screen flex mt-[20px] justify-between'>
+          <div className='w-full flex mt-[20px] justify-between'>
             <Image className='w-[150px] h-[150px]' src="/big-cake.png" width={300} height={300} alt="cake"/>
             <Image className='w-[150px] h-[150px]' src="/wine.png" width={300} height={300} alt="cake"/>
           </div>
           <div className='flex items-center'>
-            <div className='w-[120vw] mt-[120px] flex items-center justify-between'>
+            <div className='w-full mt-[120px] flex items-center justify-between'>
               <Image className='w-[230px] h-[230px]' src="/confetti.png" width={300} height={300} alt="cake"/>
               <Image className='w-[230px] h-[230px] scale-x-[-1]' src="/confetti.png" width={300} height={300} alt="cake"/>
             </div>
@@ -152,7 +152,7 @@ export default function Home() {
             <Image src="/wowww.png" width={300} height={300} alt="Clipped Photo" />
           </div>
         </section>
-        <section className="flex flex-col items-center p-4">
+        <section className="flex flex-col w-full items-center p-4">
           <div className='flex w-full items-center mb-4 justify-between'>
             <Image className='w-[100px] h-[100px]' src="/conys.png" width={300} height={300} alt="berry"/>
             <Image className='w-[100px] h-[100px] scale-x-[-1]' src="/heart-eyes.png" width={300} height={300} alt="berry"/>
@@ -177,8 +177,8 @@ export default function Home() {
             но точно знаю, что хочу слушать тебя снова и снова.</p>
         </section>
       </main>
-      <footer className="flex flex-col w-full items-center justify-center p-4">
-        <p className="text-[26px] font-[lucyFont]">Made by love & Adok</p>
+      <footer className="flex flex-col max-w-[500px] items-center justify-center p-4">
+        <p className="text-[26px] font-[lucyFont]">Made by love & <a href="https://ersinadilkhan.vercel.app/" target="_blank" rel="noopener noreferrer">Adok</a></p>
       </footer>
     </div>
   );
