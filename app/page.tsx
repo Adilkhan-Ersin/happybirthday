@@ -6,8 +6,8 @@ import Character from"@/components/Character";
 
 export default function Home() {
   // State for toggling audio and visual indicator
-  const [isAudioPlaying, setIsAudioPlaying] = useState(true);
-  const [isIndicatorActive, setIsIndicatorActive] = useState(true);
+  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
+  const [isIndicatorActive, setIsIndicatorActive] = useState(false);
       
   const listText = [
    "Торт, который не кончится",
@@ -144,8 +144,8 @@ export default function Home() {
           </div>
           <div className='flex items-center'>
             <div className='w-full mt-[120px] flex items-center justify-between'>
-              <Image className='w-[230px] h-[230px]' src="/confetti.png" width={300} height={300} alt="cake"/>
-              <Image className='w-[230px] h-[230px] scale-x-[-1]' src="/confetti.png" width={300} height={300} alt="cake"/>
+              <Image className='w-[220px] h-[220px]' src="/confetti.png" width={300} height={300} alt="cake"/>
+              <Image className='w-[220px] h-[220px] scale-x-[-1]' src="/confetti.png" width={300} height={300} alt="cake"/>
             </div>
           </div>
           <div className="mt-[20px]">
@@ -178,7 +178,7 @@ export default function Home() {
         </section>
       </main>
       <footer className="flex flex-col max-w-[500px] items-center justify-center p-4">
-        <p className="text-[26px] font-[lucyFont]">Made by love & <a href="https://ersinadilkhan.vercel.app/" target="_blank" rel="noopener noreferrer">Adok</a></p>
+        <p className="text-[26px] font-[lucyFont]">Made by <a href="https://ersinadilkhan.vercel.app/" target="_blank" rel="noopener noreferrer">Adilkhan.</a></p>
       </footer>
     </div>
   );
