@@ -53,7 +53,7 @@ Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:30
 
 ### Contact
 
-Want a similar website for a special occasion or have any questions? Feel free to reach out to me on Telegram: [**@Adilkhan51**](t.me/Adilkhan51)
+Want a similar website for a special occasion or have any questions? Feel free to reach out to me on Telegram: [**@Adilkhan51**](https://t.me/Adilkhan51)
 
 -----
 
@@ -114,4 +114,4 @@ Want a similar website for a special occasion or have any questions? Feel free t
 
 ### Контакты
 
-Хотите похожий сайт для особого случая или у вас есть вопросы? Напишите мне в Telegram: [**@Adilkhan51**](t.me/Adilkhan51)
+Хотите похожий сайт для особого случая или у вас есть вопросы? Напишите мне в Telegram: [**@Adilkhan51**](https://t.me/Adilkhan51)
