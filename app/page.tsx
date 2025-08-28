@@ -135,7 +135,7 @@ export default function Home() {
         <section className="flex w-full flex-col items-center">
           <div className='flex flex-col items-center justify-center'>
             <h6 className='font-medium text-2xl'>25.05.25</h6>
-            <h1 className='text-5xl font-[lucyFont] text-center'>Happy Birthday, Kamilya!</h1>
+            <h1 className='text-5xl font-[lucyFont] text-center'>Happy Birthday, Bobi!</h1>
             <h5 className='mt-2.5 text-4xl font-[lucyFont]'>It&apos;s your special day</h5>
           </div>
           <div className='w-full flex mt-[20px] justify-between'>

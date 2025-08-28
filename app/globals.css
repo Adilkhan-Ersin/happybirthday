@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #ffb3c6;
   --foreground: #171717;
   --rose: #f8bad6;
   --purple: #C9D2FF;
@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #C9D2FF;
+    --background: #ffb3c6;
     --foreground: #171717;
   }
 }
@@ -40,7 +40,7 @@ li {
 }
 
 li:hover {
-  background-color: #f8bad6;
+  background-color: #fb6f92;
 }
 
 .indicator-line {
