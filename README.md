@@ -9,7 +9,7 @@ This project displays a series of warm wishes with a pleasant animation effect f
   * **Next.js**
   * **TypeScript**
   * **Framer Motion** (for the text animations)
-  * **Tailwind CSS** (judging by the `className` syntax)
+  * **Tailwind CSS** 
 
 ### Setup and Installation
 
@@ -53,11 +53,9 @@ Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:30
 
 ### Contact
 
-Want a similar website for a special occasion or have any questions? Feel free to reach out to me on Telegram: [**@Adilkhan51**](https://t.me/Adilkhan51)
+Want a similar website for a special occasion or have any questions? Feel free to reach out to me on Telegram: [**@Adilkhan51**](https://t.me/Adlkhy)
 
 -----
-
-<br\>
 
 # Сайт-поздравление с Днём Рождения ✨
 
@@ -70,7 +68,7 @@ Want a similar website for a special occasion or have any questions? Feel free t
   * **Next.js**
   * **TypeScript**
   * **Framer Motion** (для анимации текста)
-  * **Tailwind CSS** (судя по синтаксису `className`)
+  * **Tailwind CSS**
 
 ### Установка и запуск
 
@@ -114,4 +112,4 @@ Want a similar website for a special occasion or have any questions? Feel free t
 
 ### Контакты
 
-Хотите похожий сайт для особого случая или у вас есть вопросы? Напишите мне в Telegram: [**@Adilkhan51**](https://t.me/Adilkhan51)
+Хотите похожий сайт для особого случая или у вас есть вопросы? Напишите мне в Telegram: [**@Adilkhan51**](https://t.me/Adlkhy)
